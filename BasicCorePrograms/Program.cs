@@ -10,6 +10,9 @@ namespace BasicCorePrograms
     {
         static void Main(string[] args)
         {
+            FlipCoin.FlipCoinTest();
+            Console.ReadLine();
+
         }
     }
 }
