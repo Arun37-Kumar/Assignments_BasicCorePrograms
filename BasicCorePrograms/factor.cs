@@ -18,6 +18,7 @@ namespace BasicCorePrograms
             if (number < 0)
             {
                 Console.WriteLine("Invalid Number!");
+                Console.ReadLine();
             }
             else
             {
@@ -25,12 +26,13 @@ namespace BasicCorePrograms
                 {
                     while (number%count == 0)
                     {
-                        Console.WriteLine("{0} ", count);
+                        Console.Write("{0} ", count);
                         number /= count;
                         originalNumber *= count;
                     }
                 }
-                Console.WriteLine("Original Number");
+                Console.WriteLine("\nOriginal Number after prime factorization : {0}",originalNumber);
+                Console.ReadLine();
             }
         }
     }
