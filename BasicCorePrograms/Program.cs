@@ -18,6 +18,7 @@ namespace BasicCorePrograms
             factor.factorCheck();
             QuotientAndRemainder.QuotientAndRemainderCheck();
             SwapNumber.SwapNumberCheck();
+            EvenOrOdd.EvenOddCheck(); 
             Console.ReadLine();
 
         }
