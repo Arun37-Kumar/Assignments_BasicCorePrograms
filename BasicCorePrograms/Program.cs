@@ -10,10 +10,11 @@ namespace BasicCorePrograms
     {
         static void Main(string[] args)
         {
-            FlipCoin.FlipCoinTest();
-            Console.WriteLine();
-            LeapYear.LeapYearCheck();
-            PowerOfTwo.powerOfTwoProblem();
+            //FlipCoin.FlipCoinTest();
+            //Console.WriteLine();
+            //LeapYear.LeapYearCheck();
+            //PowerOfTwo.powerOfTwoProblem();
+            HarmonicNumber.CalculateHarmonicNumber();
             Console.ReadLine();
 
         }
