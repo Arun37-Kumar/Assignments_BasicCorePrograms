@@ -12,7 +12,8 @@ namespace BasicCorePrograms
         {
             FlipCoin.FlipCoinTest();
             Console.WriteLine();
-            LeapYear.LeapYearCheck();   
+            LeapYear.LeapYearCheck();
+            PowerOfTwo.powerOfTwoProblem();
             Console.ReadLine();
 
         }
