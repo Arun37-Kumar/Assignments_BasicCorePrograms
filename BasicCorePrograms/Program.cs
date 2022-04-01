@@ -15,9 +15,10 @@ namespace BasicCorePrograms
             LeapYear.LeapYearCheck();
             PowerOfTwo.powerOfTwoProblem();
             HarmonicNumber.CalculateHarmonicNumber();
-
-            Console.ReadLine();
             factor.factorCheck();
+            QuotientAndRemainder.QuotientAndRemainderCheck();
+            Console.ReadLine();
+
         }
     }
 }
