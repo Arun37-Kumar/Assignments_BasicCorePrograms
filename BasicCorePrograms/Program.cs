@@ -10,13 +10,13 @@ namespace BasicCorePrograms
     {
         static void Main(string[] args)
         {
-            //FlipCoin.FlipCoinTest();
-            //Console.WriteLine();
-            //LeapYear.LeapYearCheck();
-            //PowerOfTwo.powerOfTwoProblem();
-            //HarmonicNumber.CalculateHarmonicNumber();
-            //factor.factorCheck();
-            //QuotientAndRemainder.QuotientAndRemainderCheck();
+            FlipCoin.FlipCoinTest();
+            Console.WriteLine();
+            LeapYear.LeapYearCheck();
+            PowerOfTwo.powerOfTwoProblem();
+            HarmonicNumber.CalculateHarmonicNumber();
+            factor.factorCheck();
+            QuotientAndRemainder.QuotientAndRemainderCheck();
             SwapNumber.SwapNumberCheck();
             Console.ReadLine();
 
