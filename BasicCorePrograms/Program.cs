@@ -11,6 +11,8 @@ namespace BasicCorePrograms
         static void Main(string[] args)
         {
             FlipCoin.FlipCoinTest();
+            Console.WriteLine();
+            LeapYear.LeapYearCheck();   
             Console.ReadLine();
 
         }
