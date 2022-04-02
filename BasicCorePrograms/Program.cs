@@ -10,15 +10,17 @@ namespace BasicCorePrograms
     {
         static void Main(string[] args)
         {
-            FlipCoin.FlipCoinTest();
-            Console.WriteLine();
-            LeapYear.LeapYearCheck();
-            PowerOfTwo.powerOfTwoProblem();
-            HarmonicNumber.CalculateHarmonicNumber();
-            factor.factorCheck();
-            QuotientAndRemainder.QuotientAndRemainderCheck();
-            SwapNumber.SwapNumberCheck();
-            EvenOrOdd.EvenOddCheck(); 
+            //FlipCoin.FlipCoinTest();
+            //Console.WriteLine();
+            //LeapYear.LeapYearCheck();
+            //PowerOfTwo.powerOfTwoProblem();
+            //HarmonicNumber.CalculateHarmonicNumber();
+            //factor.factorCheck();
+            //QuotientAndRemainder.QuotientAndRemainderCheck();
+            //SwapNumber.SwapNumberCheck();
+            //EvenOrOdd.EvenOddCheck();
+            //VowelOrConsonant.CheckAlphabet();
+            MaximumNumberAmongThree.FindMax();
             Console.ReadLine();
 
         }
